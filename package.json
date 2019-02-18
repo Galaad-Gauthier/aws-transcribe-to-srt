@@ -6,9 +6,12 @@
   "scripts": {
     "start": "node index.js"
   },
+  "bin": {
+    "aws-transcribe": "index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andyhopp/aws-transcribe-to-srt.git"
+    "url": "git+https://github.com/galaad-gauthier/aws-transcribe-to-srt.git"
   },
   "author": "Andy Hopper <andyhopp@amazon.com> (https://aws.amazon.com)",
   "license": "ISC",
